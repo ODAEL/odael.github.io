@@ -705,7 +705,7 @@ The `"headers"`, `"payload"` properties are optional.
 
 You can ask ManyChat to handle the next subscriber's message on your side by using the `external_message_callback` property.
 
-``{{last_input_text}}`` variable in the `payload` property will be replaced by the text of the subscriber's message.
+````{{last_input_text}}```` variable in the `payload` property will be replaced by the text of the subscriber's message.
 
 You can specify the time limit (in seconds) for this callback by using `timeout` property (default value is 1 day, maximum value is 1 day). If subscriber will not send text message in this period, callback will expire.
 
